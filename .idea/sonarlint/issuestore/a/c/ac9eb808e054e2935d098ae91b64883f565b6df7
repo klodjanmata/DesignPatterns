@@ -1,0 +1,15 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Èøù¥ÿÿÿÿÿ8µÉÔİ1
+\
+java:S1854"?Remove this useless assignment to local variable "myComponent".(´ôÉ‘8µÉÔİ1
+\
+java:S1854"?Remove this useless assignment to local variable "myComponent".(Ô°‘‹8µÉÔİ1
+a
+java:S1854"?Remove this useless assignment to local variable "myComponent".(ÌÆĞìşÿÿÿÿ8µÉÔİ1
+R
+java:S1854"5Remove this useless assignment to local variable "b".(ÒĞô8·Ù’Ùİ1
+C
+java:S1481"&Remove this unused "b" local variable.(ÒĞô8µÉÔİ1
+R
+java:S1481"0Remove this unused "myComponent" local variable.(ÌÆĞìşÿÿÿÿ8µÉÔİ1
+]	java:S125	"<This block of commented-out lines of code should be removed.(í±İÖûÿÿÿÿ8­ËÔİ1

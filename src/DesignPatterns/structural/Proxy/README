@@ -1,0 +1,29 @@
+Proxy Pattern Example
+
+The Proxy design pattern provides a surrogate or placeholder for another object to control access to it.
+It helps to control and manage access to the object it is protecting.
+
+
+Scenario:
+
+Let's create a simple example where we have an interface for image display.
+We want to implement a proxy that controls access to the actual image display functionality,
+potentially adding additional operations such as logging or lazy initialization.
+
+Explanation:
+    Image Interface:
+        Image defines the interface for displaying an image.
+
+    RealImage Class:
+        RealImage implements the Image interface and represents the actual image that gets loaded and displayed.
+        The constructor loads the image from the disk, simulating an expensive operation.
+
+    ProxyImage Class:
+        ProxyImage implements the Image interface and controls access to the RealImage object.
+        The display method checks if the RealImage object is already created.
+        If not, it creates the RealImage and then delegates the display call to it.
+
+    ProxyPatternDemo Class:
+        Demonstrates how to use the ProxyImage to display an image.
+        The first call to display will load and display the image.
+        Subsequent calls to display will not reload the image but will directly display it using the existing RealImage object.

@@ -1,0 +1,7 @@
+
+0
+java:S1220""Move this file to a named package.
+
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ƒ¾é8ö÷ÚÔİ1
+X	java:S125"<This block of commented-out lines of code should be removed.(ñÑá¸8µ¼ûÔİ1
+X	java:S125"<This block of commented-out lines of code should be removed.(Ñ“Í„8¯ÑûÔİ1

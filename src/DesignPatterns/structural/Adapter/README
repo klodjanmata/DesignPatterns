@@ -1,0 +1,32 @@
+Scenario:
+
+Suppose you have a MediaPlayer interface that can play audio files,
+but you need to integrate a VideoPlayer that can play video files as well.
+The VideoPlayer does not conform to the MediaPlayer interface.
+The Adapter pattern can help bridge this gap.
+
+Explanation:
+
+    MediaPlayer Interface:
+        MediaPlayer defines the interface for playing media files.
+
+    AudioPlayer Class:
+        AudioPlayer implements MediaPlayer and can play mp3 files directly.
+        For other formats (vlc and mp4), it uses MediaAdapter.
+
+    AdvancedMediaPlayer Interface:
+        AdvancedMediaPlayer defines the interface for playing advanced media files like vlc and mp4.
+
+    Concrete AdvancedMediaPlayer Classes:
+        VlcPlayer and Mp4Player implement AdvancedMediaPlayer.
+
+    MediaAdapter Class:
+        MediaAdapter implements MediaPlayer and uses AdvancedMediaPlayer to play vlc and mp4 files.
+
+    AdapterPatternDemo Class:
+        Demonstrates the usage of AudioPlayer to play different media formats.
+        The AudioPlayer uses MediaAdapter to play formats other than mp3.
+
+This example demonstrates how the Adapter pattern allows AudioPlayer
+to play different formats (mp4 and vlc) by using the MediaAdapter to bridge the gap between
+MediaPlayer and AdvancedMediaPlayer.

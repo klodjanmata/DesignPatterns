@@ -1,0 +1,27 @@
+The Mediator pattern is a behavioral design pattern that defines an object that encapsulates how a set of objects interact.
+This pattern promotes loose coupling by keeping objects from referring to each other explicitly, and it lets you vary their interaction independently.
+
+Scenario:
+
+Let's create an example of a chat room where different users can send messages to each other through a mediator object.
+
+Explanation:
+
+    Mediator Interface:
+        ChatMediator defines the interface for sending messages and adding users.
+
+    Concrete Mediator Class:
+        ChatRoom is the concrete mediator that implements the ChatMediator interface.
+        It maintains a list of users and implements the logic to send messages to all users except the one who sent the message.
+
+    Abstract User Class:
+        User is an abstract class that contains a reference to the mediator and defines abstract methods for sending and receiving messages.
+
+    Concrete User Class:
+        ConcreteUser extends the User class and implements the send and receive methods. It uses the mediator to send messages to other users.
+
+    Client Code:
+        MediatorPatternDemo sets up the chat room (mediator) and users. It adds users to the chat room and demonstrates how a user can send a message through the mediator.
+
+This example demonstrates how the Mediator pattern can encapsulate interactions between objects in a way that promotes loose coupling and
+allows for easy modification of communication between objects without changing the objects themselves.

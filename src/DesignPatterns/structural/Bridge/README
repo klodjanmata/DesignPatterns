@@ -1,0 +1,28 @@
+Scenario:
+
+Suppose we are developing a drawing application that can draw different shapes (e.g., circles, squares)
+in different colors (e.g., red, green).
+Using the Bridge pattern, we can separate the shape and color functionalities so that they can vary independently.
+
+Explanation:
+
+    Color Interface:
+        Color defines the interface for applying colors.
+
+    Concrete Color Classes:
+        RedColor and GreenColor implement the Color interface.
+
+    Shape Abstract Class:
+        Shape uses composition to include a Color object and has an abstract method applyColor().
+
+    Concrete Shape Classes:
+        Circle and Square extend the Shape abstract class and implement the applyColor() method.
+
+    BridgePatternDemo Class:
+        Demonstrates how to use the Shape and Color classes together to create objects and apply colors.
+
+This example demonstrates how the Bridge pattern decouples the abstraction (Shape) from its implementation (Color)
+so that they can vary independently. We can easily add more shapes and colors without modifying existing code.
+
+
+

@@ -1,0 +1,28 @@
+The Command pattern is a behavioral design pattern that turns a request into a stand-alone object that contains all the information about the request.
+This transformation allows for parameterizing clients with different requests, queuing or logging requests, and supporting undoable operations.
+Command Pattern Example
+Scenario:
+
+Let's create an example of a remote control system where different commands can be executed, such as turning on/off lights and opening/closing garage doors.
+
+Explanation:
+
+    Command Interface:
+        Command defines the interface for executing an operation.
+
+    Concrete Command Classes:
+        LightOnCommand, LightOffCommand, GarageDoorOpenCommand, and GarageDoorCloseCommand implement the Command interface.
+        Each command object encapsulates a request by binding together a set of actions on a specific receiver (like Light or GarageDoor).
+
+    Receiver Classes:
+        Light and GarageDoor contain the actual business logic to be executed.
+
+    Invoker Class:
+        RemoteControl is the invoker that stores the command and executes it by calling the execute method. It can be set to different commands dynamically.
+
+    Client Code:
+        CommandPatternDemo sets up the receiver, commands, and invoker. It sets the command to be executed and invokes the operation through the RemoteControl.
+
+This example demonstrates how the Command pattern can encapsulate a request as an object, thereby allowing for parameterizing clients with different requests,
+queuing requests, and supporting undoable operations.
+
