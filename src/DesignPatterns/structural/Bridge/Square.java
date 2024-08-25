@@ -9,6 +9,6 @@ public class Square extends Shape {
     @Override
     public void applyColor() {
         System.out.print("Square filled with color ");
-        color.applyColor();
+        super.color.applyColor();
     }
 }

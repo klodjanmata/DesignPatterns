@@ -2,6 +2,7 @@ package DesignPatterns.creational.Prototype;
 
 public class ConcretePrototype implements Prototype {
     private String name;
+    private int age;
 
     // Constructor
     public ConcretePrototype(String name) {

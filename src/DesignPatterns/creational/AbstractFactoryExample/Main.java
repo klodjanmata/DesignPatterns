@@ -6,5 +6,8 @@ public class Main {
         Chair victorianChair = new Chair();
         victorianChair.create(s);
 
+        s = new ArtDeco();
+        victorianChair.create(s);
+
     }
 }
