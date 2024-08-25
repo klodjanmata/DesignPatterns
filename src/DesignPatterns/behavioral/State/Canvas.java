@@ -4,7 +4,6 @@ public class Canvas {
 
     private Tool currentTool;
 
-
     public void mouseDown(){
         currentTool.mouseDown();
     }
@@ -12,9 +11,9 @@ public class Canvas {
     public void mouseUp(){
         currentTool.mouseUp();
     }
-    public Canvas(){
 
-    }
+    public Canvas(){}
+
     public Canvas(Tool currentTool) {
         this.currentTool = currentTool;
     }

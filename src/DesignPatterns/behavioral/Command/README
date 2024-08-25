@@ -3,7 +3,8 @@ This transformation allows for parameterizing clients with different requests, q
 Command Pattern Example
 Scenario:
 
-Let's create an example of a remote control system where different commands can be executed, such as turning on/off lights and opening/closing garage doors.
+Let's create an example of a remote control system where different commands can be executed,
+such as turning on/off lights and opening/closing garage doors.
 
 Explanation:
 

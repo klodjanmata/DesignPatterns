@@ -6,7 +6,7 @@ public class Main {
         canvas.setCurrentTool(new Selection());
         canvas.mouseDown();
         canvas.mouseUp();
-
+        
         canvas.setCurrentTool(new Brush());
         canvas.mouseDown();
         canvas.mouseUp();

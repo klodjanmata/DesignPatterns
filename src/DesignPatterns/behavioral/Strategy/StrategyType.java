@@ -1,2 +1,7 @@
-package DesignPatterns.behavioral.Strategy;public enum StrategyType {
+package DesignPatterns.behavioral.Strategy;
+
+public enum StrategyType {
+    DOUBLE,
+    REMOVE,
+    REPLACE
 }

@@ -6,6 +6,7 @@ public class User {
     public User(String name, int age) {
         this.name = name;
     }
+
     public void sayHello(){
         System.out.println("---Hello, my name is " + name);
     }

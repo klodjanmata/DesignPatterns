@@ -1,5 +1,7 @@
 package DesignPatterns.behavioral.Momento;
 
+import DesignPatterns.behavioral.Mediator.User;
+
 public class Main {
     public static void main(String[] args) {
         Editor editor = new Editor();
@@ -19,7 +21,6 @@ public class Main {
 
         editor.setContent("da");
         System.out.println(editor.getContent());
-
 
 
         editor.restoreState(history.pop());

@@ -6,9 +6,11 @@ public class EditorState {
     public EditorState(){
         this.content = "";
     }
+
     public EditorState(Editor editor){
         this.content = editor.getContent();
     }
+
     public String getContent() {
         return content;
     }

@@ -24,6 +24,3 @@ public class History {
     }
 }
 
-
-// There are 10 types of programers,
-// those whu understand binary and those who dont.
