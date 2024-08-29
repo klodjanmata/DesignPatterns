@@ -1,4 +1,5 @@
 package DesignPatterns.structural.Flyweight;
 
-public class Tree {
+public interface Tree {
+    void display(int x, int y);
 }
